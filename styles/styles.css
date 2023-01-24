@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(10, 10, 65);
+}
+#row1{
+    background-color: rgb(10, 10, 65);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: larger;
+    letter-spacing: 1.8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    color: rgb(10, 10, 65);
+    border: 100%;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+#logo{
+    border-radius: 100%;
+    margin-left: 20px;
+}
+#company_name{
+    margin: 20px 100px 20px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    
+}
+.search_items{
+    margin: 20px 100px 20px 200px;
+    font-size: 20px;
+}
+.search{
+    font-size: 20px;
+    text-size-adjust: 20px;
+    border-radius: 10px;
+    border-color: grey;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#search-icon{
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    left: 650px;
+    font-size: 30px;
+    color: gray;
+}
+input.bar{
+    width: 700px;
+    z-index: 1;
+    padding-left: 50px;
+}
+::placeholder{
+    padding-left: 5px;
+}
+button.search{
+    background-color: navy;
+}
+a.submit{
+    text-decoration: none;
+    color: lightblue;
+    font-weight: 200;
+}
+button:hover{
+    background-color: white;
+    text-decoration: none;
+}
+.nav-icon{
+    margin: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+a.icons{
+    text-decoration: none;
+    margin-left: 30px;
+    color: navy;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.categories{
+    display: flex;
+    margin-top: 30px;
+    overflow: none;
+    justify-content: center;
+    font-size: 23px;
+}
+a.cat{
+    text-decoration: none;
+    margin-left: 50px;
+    color: whitesmoke;
+    border:3px solid white;
+    background-color: rgb(10, 10, 65);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+a:hover{
+    color: wheat;
+}
+.pictures{
+    margin-top: 40px;
+    position: relative;
+    justify-content: center;
+}
+#samsung{
+    position: absolute;
+    top: 20px;
+    left: 310px;
+}
+#freshdeals{
+    position:absolute;
+    top:20px;
+    right: 268px;
+}
+#free-delivery{
+    position: absolute;
+    top: 220px;
+    right: 268px;
+}
+
+.home_office{
+    margin-top: 500px;
+    margin-left: 300px;
+    margin-bottom: -125px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#linktext1{
+    margin-left:10px;
+    margin-right: 270px;
+    color: rgb(10, 10, 65);
+    background-color: lightpink;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.items1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 70px;
+    
+}
+.price{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: wheat;
+}
+#linktext2 {
+    margin-left: 10px;
+    margin-right: 270px;
+    color: brown;
+    background-color: wheat;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.items2 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 70px;
+
+}
+#linktext3 {
+    margin-left: 10px;
+    margin-right: 270px;
+    color: rgb(10, 10, 65);
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.items3 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 70px;
+
+}
+#linktext4 {
+    margin-left: 10px;
+    margin-right: 270px;
+    color:maroon;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.items4 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+footer{
+    
+    position: relative;
+    top: 500px;
+}
+.foot{
+    background-color: lightpink;
+    color: rgb(10, 10, 65);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-bottom: px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.help {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.help a{
+    text-decoration: none;
+    color: rgb(10, 10, 65);
+    margin: 10px 20px 50px 20px;
+}
+.about{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.about a{
+    text-decoration: none;
+    color: rgb(10, 10, 65);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
